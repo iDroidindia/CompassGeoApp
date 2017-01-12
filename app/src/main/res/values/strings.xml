@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">The Compass App</string>
+    <string name="compass_dial">Compass Dial</string>
+    <string name="compass_hands">Compass Hands</string>
+    <string name="loggedin_scr_internet_txt">You are not online. Please Turn On your Internet settings to continue.</string>
+    <string name="loggedin_scr_location_txt">Please Turn On your Location settings to continue.</string>
+</resources>
+

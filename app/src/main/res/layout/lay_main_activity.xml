@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/globe">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/iv_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/globe" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/splash_scr_logo_image_bg_style"
+        android:padding="10dp"
+        android:src="@drawable/app_logo"
+        android:foregroundGravity="center"/>
+
+
+    <!-- <TextView-->
+    <test_app.location.compass_location_application.compassgeoapp.CustomFontTextView_Bold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_logo"
+        android:gravity="center"
+        android:text="The Compass App"
+        android:textColor="@color/tv_splash_txt_color"
+        android:textSize="30sp"
+        android:id="@+id/welcome_txt"
+        android:layout_marginTop="20dp" />
+
+
+    <!-- <TextView
+    <test_app.location.compass_location_application.compassgeoapp.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_txt"
+        android:gravity="center"
+        android:text="The Compass App"
+        android:textColor="@color/tv_splash_txt_color"
+        android:textSize="30sp"
+        android:id="@+id/about_us"
+        android:layout_marginTop="20dp" /> -->
+
+</RelativeLayout>

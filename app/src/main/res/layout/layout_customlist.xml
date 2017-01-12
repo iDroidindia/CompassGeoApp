@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/top_toolbar"/> -->
+
+
+    <!-- <TextView -->
+    <test_app.location.compass_location_application.compassgeoapp.CustomFontTextView_Bold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Monuments Data Fetched from Web"
+        android:textSize="20sp"
+        android:id="@+id/welcome_txt"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll_main"
+        android:layout_weight="8"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/welcome_txt">
+
+    <!-- <TextView -->
+    <test_app.location.compass_location_application.compassgeoapp.CustomFontTextView_Bold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_weight="1.5"
+        android:id="@+id/tv_usr_details"
+        android:layout_below="@+id/welcome_txt"
+        android:text="User List"
+        android:textSize="20sp"/>
+
+        <!-- <TextView -->
+        <test_app.location.compass_location_application.compassgeoapp.CustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_weight="3.5"
+            android:id="@+id/tv_usr_lat_lng"
+            android:layout_below="@+id/welcome_txt"
+            android:text="User Lat Lng"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <!-- <ListView
+        android:id="@android:id/list"
+        android:layout_below="@+id/tv_usr_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        /> -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_lv"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/ll_main">
+
+
+    <ListView
+        android:id="@+id/usr_list"
+        android:layout_below="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>
